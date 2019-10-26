@@ -1,0 +1,163 @@
+body{
+    background-color:lightgray;
+    --background: url('https://1.bp.blogspot.com/_q62sQ8klCns/S_puqraOw3I/AAAAAAAAAJ4/6qNYcmyLyxM/s1600/Paper_Background.gif') no-repeat;
+    --background-size: cover;
+    margin-right:120px;
+    margin-left:120px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 20px;
+    margin-top:0px;
+}
+/*.header1{
+    height: 170px;
+    margin-left:50px;
+    width: 1200px;
+    font-weight: bold;
+    margin-top: -15px;
+    font-family: sans-serif;
+    text-align: center;  
+    position: fixed;
+    border-radius: 20px;
+    background:inherit;
+    --background-image: linear-gradient(to right, rgba(-5, -5, -5, -5), rgba(0, 0, 0, 0.5), rgba(-5, -5, -5, -5));
+    --background: url('group 403.svg') no-repeat;
+    --background-size: 500px;
+    --background-image:cover;
+    --back
+}*/
+#section{
+    padding-top:230px;
+    padding-left:30px;
+    padding-right:40px;
+    --position: relative; 
+}
+#pic{
+    margin-left:40px;
+    --padding-left:20px;
+    height:50;
+    width:15%;
+    position: fixed;
+    --padding-top:5px; 
+    --margin-right: 80px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.932);
+    border-width: 2px;
+    border-radius: 20px;
+    --margin-top:-5px;
+    background: inherit;
+}
+#objective{
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#wrkexp{
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.objdes{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right:50px;
+}
+.we{
+display:block;
+width:1000px;
+margin-left: 60px;
+margin-right:60px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+}
+.wedes{
+margin-left: 80px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-right:60px;
+}
+.hrtag{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+    margin-right: 700px;
+}
+.hr1{
+    /*border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;*/
+    border: 0;
+    height: 3px;
+    --background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(100, 75, 75), rgba(0, 0, 0, 0));
+    top:500px;
+    background-color: red;
+    --position:absolute;
+    --z-index: 5;
+    display:block;
+}
+#menu{
+    text-align: center;
+    width:1150px;
+    
+}
+#menu li{
+    display: inline;    
+}
+#menu li a{
+    padding: 8px;
+    color: black;
+}
+#menu li a:hover {
+    background-color: rgba(17, 17, 17, 0.541);
+  }
+#Education{
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.edu{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right:60px;
+}
+#Projects{
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 25px;  
+}
+.prjtitle{
+    display:block;
+    width:1000px;
+    margin-left: 60px;
+    margin-right:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.prjdesc{
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right:60px;
+}
+.responsibility li{
+	padding: 0px 0px 2px 20px;
+	list-style: none;
+	background-image: url('https://www.svgrepo.com/show/118998/basic-tick.svg');
+	background-repeat: no-repeat;
+    background-size: 10px;	  
+    margin-left: 60px;  
+}
+.responsibilities
+{  margin: 100px 0;
+   padding: 2px;
+}
+#pe{
+    margin-left: 60px;
+    font-weight: bolder;
+    font-size: 25px;  
+}
+ol li{
+    margin-left: 80px;
+}
