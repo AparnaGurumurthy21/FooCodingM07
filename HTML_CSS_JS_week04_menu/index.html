@@ -25,13 +25,16 @@
     //var menu=document.getElementsByClassName('.menu');
     var menu1=document.querySelector('.menu');
     var closeMenu=document.querySelector('.close-btn');
+    var overLay=document.querySelector('.overlay');
 
     mobileMenu.addEventListener('click', function(){
       menu1.className += ' open';
+      overLay.className += ' open';
     })
     closeMenu.addEventListener('click', function(){
       menu1.className = 'menu';
-    })      
+      overLay.className = 'overlay'
+    })        
   </script>
 </body>
 </html>
