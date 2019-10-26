@@ -1,0 +1,205 @@
+@media only screen and (min-width: 1031px) {
+    #grid-flex { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        text-align: center;
+    } 
+    #grid-flex .grid-item:first-child{
+        border-radius: 10px;
+        border: 2px solid black;   
+        width: 46.5%;
+        margin: 10px;  
+        display: inline-block;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-flex .grid-item:nth-child(1n+2) {
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 22.5%; 
+        margin: 10px; 
+        display: inline-block;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-flex > .grid-item > img{
+        width: 30%;
+        height: auto;
+    }
+    ul li{
+        list-style: none;
+        
+    }
+    #grid-floats .grid-item:first-child {
+        float:left;
+        border-radius: 10px;
+        border: 2px solid black;   
+        width: 46.5%;
+        margin: 10px;
+        text-align: center;
+        font-size: 14px;
+        height: 280px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-floats .grid-item:nth-child(1n+2) {
+        float:left;
+        display: block;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 22.5%; 
+        text-align: center;
+        margin: 10px;
+        height: 280px;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-floats .grid-item:nth-child(4),
+    #grid-floats .grid-item:nth-child(4n+8) {
+    clear: both;
+    }
+    #grid-floats > .grid-item > img{
+        width: 30%;
+        height: auto;
+    }
+    
+    section{
+        clear:both;
+    }}
+@media only screen and (min-width: 768px) and (max-width: 1031px) {
+    #grid-flex { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        text-align: center;        
+    } 
+    #grid-flex .grid-item:nth-child(-n+2){
+        border-radius: 10px;
+        border: 2px solid black;   
+        width: 45.5%;
+        margin: 10px;  
+        display: inline-block;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-flex .grid-item:nth-child(1n+3) {
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 29%; 
+        margin: 10px; 
+        display: inline-block;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-flex > .grid-item > img{
+        width: 30%;
+        height: auto;
+    }
+    ul li{
+        list-style: none;
+        
+    }
+    
+    #grid-floats .grid-item:nth-child(-n+2) {
+        float:left;
+        border-radius: 10px;
+        border: 2px solid black;   
+        width: 44%;
+        margin: 10px;
+        text-align: center;
+        font-size: 14px;
+        height: 280px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-floats .grid-item:nth-child(1n+3) {
+        float:left;
+        display: block;
+        border-radius: 10px;
+        border: 2px solid black;
+        width: 28.5%; 
+        text-align: center;
+        margin: 10px;
+        height: 280px;
+        font-size: 14px;
+        box-shadow: 10px 10px 5px grey;
+    }
+    #grid-floats .grid-item:nth-child(3),
+    #grid-floats .grid-item:nth-child(3n+6) {
+    clear: both;
+    }
+    #grid-floats > .grid-item > img{
+        width: 30%;
+        height: auto;
+    }
+    
+    section{
+        clear:both;
+}}
+@media only screen and (max-width: 767px) {
+        #grid-flex { 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;  
+            text-align: center;
+        } 
+        #grid-flex .grid-item:first-child{
+            border-radius: 10px;
+            border: 2px solid black;   
+            width: 100%;
+            margin: 10px;  
+            display: inline-block;
+            font-size: 14px;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #grid-flex .grid-item:nth-child(1n+2) {
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 45%; 
+            margin: 10px; 
+            font-size: 14px;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #grid-flex > .grid-item > img{      
+            width: 30%;
+            height: auto;
+        }
+        .grid-item {
+            list-style: none;
+            
+        }
+        #grid-floats .grid-item:first-child {
+            float:left;
+            border-radius: 10px;
+            border: 2px solid black;   
+            width: 90%;
+            margin: 10px;
+            text-align: center;
+            font-size: 14px;
+            height: 280px;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #grid-floats .grid-item:nth-child(1n+2) {
+            float:left;
+            display: block;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 42.5%; 
+            text-align: center;
+            margin: 10px;
+            height: 280px;
+            font-size: 14px;
+            box-shadow: 10px 10px 5px grey;
+        }
+        #grid-floats .grid-item:nth-child(2),
+        #grid-floats .grid-item:nth-child(2n+4) {
+        clear: both;
+        }
+        #grid-floats > .grid-item > img{
+            width: 30%;
+            height: auto;
+        }        
+        section{
+            clear:both;
+        }}
+
+        
