@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="main-nav">
+      <ul class="menu">
+          <li class="close-btn">&times;</li>
+          <li><a href="">link 1</a></li>
+          <li><a href="">link 2</a></li>
+          <li><a href="">link 3</a></li>
+          <li><a href="">link 4</a></li>
+      </ul>
+      <span class="mobile-btn">☰</span>
+      <div class="overlay"></div>
+  </nav>
 
+  <script>
+    var mobileMenu=document.querySelector('.mobile-btn');
+    //var menu=document.getElementsByClassName('.menu');
+    var menu1=document.querySelector('.menu');
+    var closeMenu=document.querySelector('.close-btn');
+
+    mobileMenu.addEventListener('click', function(){
+      menu1.className += ' open';
+    })
+    closeMenu.addEventListener('click', function(){
+      menu1.className = 'menu';
+    })      
+  </script>
+</body>
+</html>
