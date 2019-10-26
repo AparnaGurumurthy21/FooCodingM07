@@ -11,7 +11,7 @@ body {
 }
 .main-nav{
     height:48px;
-    background-color: green;
+    background-color: white;
     border-bottom: 1px solid pink;
     line-height: 48px;
     padding:0 16px;
@@ -31,7 +31,11 @@ body {
     font-weight: bold;
     padding: 0 14px;
 }
+.close-btn {
+    display: none;
+}
 .mobile-btn {
+    display:none;
     float:right;
 }
 @media (max-width: 768px) {
@@ -41,10 +45,13 @@ body {
         right:0;
         display:block;
         background-color: lightgray;
-        z-index:2;
+        z-index:3;
         width:300px;
         height:100%;
         transform: translateX(300px);
+    }
+    .mobile-btn {
+        display: inline-block;
     }
     .menu.open {
         transform: translateX(0);
@@ -54,6 +61,7 @@ body {
         padding: 0 14px;
     }
     .menu li.close-btn {
+        display:block;
         text-align: right;
     }
     .overlay {
@@ -64,5 +72,12 @@ body {
         left: 0;
         opacity: 0;
         z-index: -1;
+    }
+    .mobile-btn {
+        display: inline-block;
+    }
+    .overlay.open {
+        z-index:1;
+        opacity:1;
     }
 }
