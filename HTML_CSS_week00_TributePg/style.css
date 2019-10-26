@@ -1,0 +1,73 @@
+body
+{
+background-color:Black;
+
+}
+.header {
+  top:0;
+  padding: 20px 16px;
+  background: gray;
+  color: black;
+  text-align:center;
+  position:fixed;
+  width:100%;
+}	
+.h3
+{
+color:gray;
+text-align:center;
+font-family:Vodka;	
+}
+.imagetop1
+{
+border-style: solid;
+border-color: gray;
+border-width: 5px;
+border-radius: 10px;
+width:600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+--width: 50%;
+}
+#img1
+{
+padding-top:10px;
+width:500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+ul
+{  margin: 10px 0;
+   padding: 2px;
+}
+li
+{	
+	color:gray;
+	margin: -50px;
+	padding: 10px 40px 10px 300px;
+	list-style: none;
+	background-image: url('https://www.lapua.com/wp-content/uploads/2018/11/Cartr7.62x39S405FMJ.png');
+	background-repeat: no-repeat;
+	background-position: 250px;
+	background-size: 40px;	
+	display: inline-block;
+
+}
+.footer
+{
+color:gray;
+border-style: solid;
+border-color: gray;
+border-width: 5px;
+border-radius: 10px;
+padding: 20px 16px;
+width:600px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-size:20px;
+}
+
+
